@@ -1,5 +1,5 @@
 # simple_minikube_app
-This is demonstration example of web application, running on Minikube cluster locally. 
+This is demonstration example of web application (related to: https://github.com/hydramst/simple_docker_webapp), running on Minikube cluster locally. 
 
 <img width="308" alt="image" src="https://github.com/hydramst/simple_minikube_app/assets/44744458/c345719d-03a9-44c0-90d5-e74135fafa2b">
 

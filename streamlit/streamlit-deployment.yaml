@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamlit
+spec:
+  replicas: 2 # количество реплик
+  selector:
+    matchLabels:
+      app: streamlit
+  template:
+    metadata:
+      labels:
+        app: streamlit
+    spec:
+      containers:
+      - name: streamlit
+        image: hydramst/aniemore_streamlit:latest # образ Docker, который будет использоваться
+        ports:
+        - containerPort: 8501 # порт, на котором работает приложение
